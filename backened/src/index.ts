@@ -1,5 +1,5 @@
 import express from "express";
-import cookieParser from "cookie-parser";
+import cookieParser from "cookie-parser"; // Parse a very long cookie string into object
 import cors from "cors";
 import jwt, { JwtPayload } from "jsonwebtoken";
 import path from "path";
